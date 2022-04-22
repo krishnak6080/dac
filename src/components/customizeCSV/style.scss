@@ -1,0 +1,78 @@
+.container {
+  .inner_contianer {
+    @media only screen and (max-device-width: 768px) {
+      display: flex;
+      width: auto;
+    }
+    .card {
+      .header-styler {
+        background: #e45b51;
+        color: antiquewhite;
+        padding: 15px;
+        @media only screen and (max-device-width: 768px) {
+          padding: 0.5rem 0.5rem;
+          font-size: 1rem;
+        }
+      }
+      .card-body {
+        @media only screen and (max-device-width: 768px) {
+          padding: 2rem 1rem 9rem;
+          font-size: 0.8rem;
+        }
+
+        .button-style {
+          background: #e45b51;
+          color: antiquewhite;
+          padding: 15px;
+          margin: 20px 15px;
+          @media only screen and (max-device-width: 768px) {
+            padding: 0.5rem;
+            margin: 1rem 1rem;
+            width: 7rem;
+            font-size: 1rem;
+          }
+        }
+
+        .inner-container {
+          .response-container {
+            .success_msg {
+              color: rgb(21, 114, 21);
+              font-size: 20px;
+              @media only screen and (max-device-width: 768px) {
+                font-size: 0.9rem;
+              }
+            }
+          }
+        }
+      }
+      .button-flexbox {
+        .button-style {
+          background: #e45b51;
+          color: antiquewhite;
+          padding: 15px;
+          margin: 20px 15px;
+          @media only screen and (max-device-width: 768px) {
+            padding: 0.5rem;
+            margin: 1rem 1rem;
+            width: 6rem;
+            font-size: 1rem;
+          }
+        }
+        .button-end {
+          float: right;
+        }
+        .button-download {
+          @media only screen and (max-device-width: 768px) {
+            width: 9rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.payloadArea {
+  @media only screen and (max-device-width: 768px) {
+    width: 15rem !important;
+  }
+}

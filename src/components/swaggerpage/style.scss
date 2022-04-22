@@ -1,0 +1,337 @@
+.body-right {
+  position: absolute;
+  top: 271px;
+  left: 127px;
+  height: 679px;
+  width: 1000px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000019;
+  opacity: 1;
+}
+
+.swagger-header {
+  position: absolute;
+  top: 1px;
+  width: 1000px;
+  height: 73px;
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.swagger-header-step1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #E3463A 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 140px;
+  height: 73px;
+}
+.swagger-header-step1 p{
+  font: normal normal medium 15px/20px Roboto;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  width: 43px;
+  height: 18px;
+  position: absolute;
+  top: 17px;
+  left: 49px;
+}
+.swagger-header-step1 span{
+  font: normal normal normal 15px/20px Roboto;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  width: 47px;
+  height: 18px;
+  position: absolute;
+  top: 40px;
+  left: 47px;
+}
+.swagger-header-step2 p{
+  font: normal normal medium 15px/20px Roboto;
+  letter-spacing: 0px;
+  color: #333131;
+  opacity: 1;
+  width: 43px;
+  height: 18px;
+  position: absolute;
+  top: 19px;
+  left: 197px;
+}
+.swagger-header-step2 span{
+  font: normal normal normal 15px/20px Roboto;
+  color: #333131;
+  opacity: 1;
+  width: 38px;
+  height: 18px;
+  position: absolute;
+  top: 42px;
+  left: 197px;
+  letter-spacing: 0px;
+}
+.swagger-header-line{
+  width: 0px;
+  height: 41px;
+  border: 0.4000000059604645px solid #707070;
+  opacity: 1;
+  position: absolute;
+  top: 17px;
+  left: 292px;
+}
+.swagger-header-step3 p{
+  font: normal normal medium 15px/20px Roboto;
+  letter-spacing: 0px;
+  color: #333131;
+  opacity: 1;
+  width: 43px;
+  height: 18px;
+  position: absolute;
+  top: 19px;
+  left: 349px;
+}
+.swagger-header-step3 span{
+  font: normal normal normal 15px/20px Roboto;
+  color: #333131;
+  opacity: 1;
+  width: 38px;
+  height: 18px;
+  position: absolute;
+  top: 42px;
+  left: 352px;
+  letter-spacing: 0px;
+}
+.upload-the-swagger-file p{
+  width: 192px;
+  height: 16px;
+  font: normal normal normal 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #333131;
+  opacity: 1;
+  position: absolute;
+  top: 115px;
+  left: 84px;
+}
+.upload-the-swagger-file-input {
+  position: absolute;
+  top: 157px;
+  left: 63px;
+  height: 46px;
+  width: 903px;
+  border: 0.4000000059604645px solid #707070;
+  border-radius: 4px;
+  opacity: 1;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.upload-the-swagger-file-input .choose-file {
+  width: 195px;
+  height: 46px;
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  border-radius: 4px 0px 0px 4px;
+  opacity: 1;
+}
+
+.upload-the-swagger-file-input .choose-file-text {
+  position: absolute;
+  top: 13px;
+  left: 59px;
+  height: 16px;
+  width: 69px;
+  font: normal normal normal 14px/20px Roboto;
+  color: #333131;
+  opacity: 1;
+  letter-spacing: 0px;
+}
+
+.upload-the-swagger-file-input .no-file-text {
+  position: absolute;
+  top: 15px;
+  left: 229px;
+  font: normal normal normal 14px/20px Roboto;
+  color: #333131;
+  opacity: 1;
+  letter-spacing: 0px;
+}
+
+.body-right .application-name p {
+  position: absolute;
+  top: 265px;
+  left: 84px;
+  font: normal normal normal 14px/20px Roboto;
+  color: #333131;
+  opacity: 1;
+  letter-spacing: 0px;
+}
+
+.body-right .application-name input {
+  position: absolute;
+  width: 903px;
+  height: 46px;
+  top: 309px;
+  left: 63px;
+}
+
+.body-right .select-api p {
+  position: absolute;
+  top: 395px;
+  left: 72px;
+  font: normal normal normal 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #333131;
+  opacity: 1;
+  height: 16px;
+  width: 234px;
+}
+
+.body-right .select-api .api1 {
+  position: absolute;
+  top: 439px;
+  left: 71px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  border: 1px solid #707070;
+}
+
+.body-right .select-api .api2 {
+  position: absolute;
+  top: 474px;
+  left: 71px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  border: 1px solid #707070;
+}
+
+.body-right .select-api .api3 {
+  position: absolute;
+  top: 509px;
+  left: 71px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  border: 1px solid #707070;
+}
+
+.body-right .select-api .api4 {
+  position: absolute;
+  top: 544px;
+  left: 71px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  border: 1px solid #707070;
+}
+
+.body-right .select-api .api5 {
+  position: absolute;
+  top: 579px;
+  left: 71px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  border: 1px solid #707070;
+}
+
+.body-right .select-api .api1-text {
+  position: absolute;
+  top: 434px;
+  left: 103px;
+  width: 64px;
+  height: 14px;
+  font: normal normal normal 12px/20px Roboto;
+  letter-spacing: 0px;
+  color: #333131;
+  opacity: 1;
+}
+
+.body-right .select-api .api2-text {
+  position: absolute;
+  top: 471px;
+  left: 103px;
+  width: 72px;
+  height: 14px;
+  font: normal normal normal 12px/20px Roboto;
+  letter-spacing: 0px;
+  color: #333131;
+  opacity: 1;
+}
+
+.body-right .select-api .api3-text {
+  position: absolute;
+  top: 504px;
+  left: 103px;
+  width: 67px;
+  height: 14px;
+  font: normal normal normal 12px/20px Roboto;
+  letter-spacing: 0px;
+  color: #333131;
+  opacity: 1;
+}
+
+.body-right .select-api .api4-text {
+  position: absolute;
+  top: 540px;
+  left: 103px;
+  width: 93px;
+  height: 14px;
+  font: normal normal normal 12px/20px Roboto;
+  letter-spacing: 0px;
+  color: #333131;
+  opacity: 1;
+}
+
+.body-right .select-api .api5-text {
+  position: absolute;
+  top: 574px;
+  left: 103px;
+  width: 59px;
+  height: 14px;
+  font: normal normal normal 12px/20px Roboto;
+  letter-spacing: 0px;
+  color: #333131;
+  opacity: 1;
+}
+
+.next-btn {
+  position: absolute;
+  top: 628px;
+  left: 856px;
+  width: 110px;
+  height: 32px;
+  background: #E3463A 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  border: none;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.next-btn p {
+  position: absolute;
+  top: 8px;
+  left: 41px;
+  width: 29px;
+  height: 16px;
+  text-align: left;
+  font: normal normal normal 14px/16px Roboto;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.cancel-btn{
+  width: 110px;
+  height: 32px;
+  background: #C1C1C1 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+  border: none;
+  position: absolute;
+  top: 628px;
+  left: 725px;
+}
+.error-display {
+  color: red;
+  font-size: small;
+}

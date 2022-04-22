@@ -1,0 +1,309 @@
+// .container {
+//   .inner_contianer {
+//     @media only screen and (max-device-width: 768px) {
+//       display: flex;
+//       width: auto;
+//     }
+//     .card {
+//       .header-styler {
+//         background: #e45b51;
+//         color: antiquewhite;
+//         padding: 15px;
+//         @media only screen and (max-device-width: 768px) {
+//           padding: 0.5rem 0.5rem;
+//           font-size: 1rem;
+//         }
+//       }
+//       .card-body {
+//         .button-style {
+//           background: #e45b51;
+//           color: antiquewhite;
+//           padding: 15px;
+//           margin: 20px 15px;
+//           @media only screen and (max-device-width: 768px) {
+//             padding: 0.5rem;
+//             margin: 2rem 1rem;
+//             width: 5rem;
+//             font-size: 1rem;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// .card {
+//   .header-styler {
+//     background: #F2F2F2;
+//     color: antiquewhite;
+//     padding: 15px;
+//     @media only screen and (max-device-width: 768px) {
+//       padding: 0.5rem 0.5rem;
+//       font-size: 1.25rem;
+//     }
+//   }
+//   .card-body {
+//     .task {
+//       .task-status {
+//         line-height: 0em;
+//       }
+//     }
+
+//     .meta {
+//       width: 50%;
+//       @media only screen and (max-device-width: 425px) {
+//         width: 100%;
+//       }
+//       .meta-content {
+//         background-color: #eee0df;
+//         width: 350px;
+//         padding: 2rem;
+//         margin: 25px 10px;
+//         border-radius: 5px;
+//         @media only screen and (max-device-width: 768px) and (min-device-width: 425px) {
+//           width: 250px;
+//           padding: 2rem;
+//           margin: 25px 10px;
+//           border-radius: 5px;
+//         }
+//         @media only screen and (max-device-width: 425px) {
+//           padding: 1rem 0.9rem;
+//           font-size: 0.9rem;
+//           margin: 0;
+//           width: auto;
+//         }
+//       }
+//     }
+//   }
+// }
+.card{
+  position: absolute;
+  top: 271px;
+  left: 127px;
+  width: 1000px;
+  height: 679px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000019;
+  opacity: 1;
+}
+.card{
+  .header-style{
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    width: 1000px;
+    height: 73px;
+    opacity: 1;
+  }
+  .header-style{
+    .header-upload{
+      width: 152px;
+      height: 73px;
+    } p{
+      font: normal normal normal 18px/20px Roboto;
+      letter-spacing: 0px;
+      color: #333131;
+      opacity: 1;
+      height: 21px;
+      width: 56px;
+      position: absolute;
+      top: 26px;
+      left: 47px;
+    }
+  }
+}
+.header-style{
+  .header-status{
+    background: #E3463A 0% 0% no-repeat padding-box;
+    width: 140px;
+    height: 73px;
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    left: 152px;
+  }.header-status p{
+    width: 46px;
+    height: 21px;
+    text-align: left;
+    font: normal normal medium 18px/20px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+}
+.header-style .header-data p{
+  width: 37px;
+  height: 21px;
+  text-align: left;
+  font: normal normal normal 18px/20px Roboto;
+  letter-spacing: 0px;
+  color: #333131;
+  opacity: 1;
+  position: absolute;
+  top: 28px;
+  left: 352px;
+}
+.meta{
+  background: #F4E4E4 0% 0% no-repeat padding-box;
+  width: 890px;
+  height: 190px;
+  position: absolute;
+  top: 419px;
+  left: 34px;
+  opacity: 1;
+}
+.meta-content{
+  h4{
+    font: normal normal medium 16px/19px Roboto;
+    color: #2B2828;
+    opacity: 1;
+    letter-spacing: 0.5px;
+    height: 19px;
+    width: 148px;
+    position: absolute;
+    top: 24px;
+    left: 56px;
+  }
+  .app-name{
+    font: normal normal medium 16px/19px Roboto;
+    letter-spacing: 0.5px;
+    color: #2B2828;
+    opacity: 1;
+    height: 19px;
+    width: 135px;
+    position: absolute;
+    top: 76px;
+    left: 56px;
+  }
+  .serv-name{
+    font: normal normal medium 16px/19px Roboto;
+    letter-spacing: 0.5px;
+    color: #2B2828;
+    opacity: 1;
+    width: 305px;
+    height: 19px;
+    position: absolute;
+    top: 113px;
+    left: 56px;
+  }
+}
+.card{
+  .download-btn{
+    background: #E3463A 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    width: 110px;
+    height: 32px;
+    opacity: 1;
+    border: none;
+    position: absolute;
+    top: 213px;
+    left: 850px;
+  }
+.download-btn  p{
+    font: normal normal normal 12px/14px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 53px;
+    height: 14px;
+    position: absolute;
+    top: 9px;
+    left: 29px;
+  }
+}
+// .task-status {
+//   line-height: 0em;
+// }
+// .success-message {
+//   margin: 50px;
+//   color: #e45b51;
+// }
+// .side-bar {
+//   background-color: #eee0df;
+//   min-height: 450px;
+//   height: 100%;
+//   max-height: 100vh;
+//   border-radius: 5px;
+//   overflow-y: scroll;
+//   width: 220px;
+//   margin-right: 20px;
+// }
+// .side-item {
+//   text-decoration: none;
+//   color: black;
+// }
+// .side-item:hover,
+// .side-item::selection,
+// .side-item:active {
+//   text-decoration: none;
+//   color: white;
+//   background-color: #e45b51;
+// }
+
+// .nav-link:focus {
+//   color: black;
+//   background-color: #e45b51;
+// }
+
+// .link-button {
+//   background-color: transparent;
+//   border: none;
+//   width: 100%;
+// }
+
+// .meta-content {
+//   background-color: #eee0df;
+//   width: 350px;
+//   padding: 10px;
+//   margin: 25px 10px;
+//   border-radius: 5px;
+// }
+// .sandbox-heading {
+//   padding: 5px 10px;
+// }
+
+// .header-logo img {
+//   width: 296px;
+//   height: 100px;
+// }
+
+// .logout-btn {
+//   background: #e45b51;
+//   color: antiquewhite;
+//   padding: 15px;
+//   margin: 20px 15px;
+// }
+// .color-select:hover {
+//   background: #e45b51;
+//   color: antiquewhite;
+// }
+// .dropdown-container {
+//   display: flex;
+// }
+
+// .dropdown-label {
+//   font-size: larger;
+//   padding: 20px;
+// }
+// .response-container {
+//   /* width:70%; */
+//   float: left;
+//   /* border: 1px solid #e45b51; */
+//   padding: 20px;
+//   margin: 10px;
+//   /* display: flex; */
+// }
+// .button-flexbox {
+//   display: flex;
+//   margin-bottom: 25px;
+// }
+// .button-start {
+//   margin-left: 1%;
+// }
+// .button-end {
+//   margin-left: 80%;
+// }
+// .button-download {
+//   margin-left: 73%;
+//   /* width: 150px; */
+// }
+// .textarea-style {
+//   border: 1px thin black;
+// }

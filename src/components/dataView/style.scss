@@ -1,0 +1,99 @@
+.container {
+  .inner_contianer {
+    @media only screen and (max-device-width: 768px) {
+      display: flex;
+      width: auto;
+    }
+    .card {
+      .header-styler {
+        background: #e45b51;
+        color: antiquewhite;
+        padding: 15px;
+        @media only screen and (max-device-width: 768px) {
+          padding: 0.5rem 0.5rem;
+          font-size: 1rem;
+        }
+      }
+      .card-body {
+        @media only screen and (max-device-width: 768px) {
+          padding: 2rem 1rem 9rem;
+          font-size: 1rem;
+        }
+        .dropdown-label {
+          font-size: larger;
+          padding: 20px;
+          @media only screen and (max-device-width: 768px) {
+            padding: 0.5rem 0.5rem;
+            font-size: 1rem;
+          }
+        }
+        .dropdown-container {
+          display: flex;
+          @media only screen and (max-device-width: 768px) {
+            display: block;
+          }
+          .dropdown-label {
+            font-size: larger;
+            padding: 20px;
+            @media only screen and (max-device-width: 768px) {
+              padding: 0.5rem;
+              font-size: 1rem;
+            }
+          }
+          .place-dropdown {
+            .dropdown-toggle {
+              width: fit-content;
+              @media only screen and (max-device-width: 768px) {
+                padding: 0.5rem;
+                font-size: 1rem;
+              }
+            }
+            .color-select:hover {
+              background: #e45b51;
+              color: antiquewhite;
+            }
+          }
+        }
+        form {
+          .upload_label {
+            @media only screen and (max-device-width: 768px) {
+              font-size: 1rem;
+            }
+          }
+          .error-display {
+            color: red;
+            font-size: smaller;
+          }
+          .button-style {
+            background: #e45b51;
+            color: antiquewhite;
+            padding: 15px;
+            margin: 20px 15px;
+            @media only screen and (max-device-width: 768px) {
+              padding: 0.5rem;
+              margin: 1rem 1rem;
+              width: 5rem;
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+      .button-style {
+        background: #e45b51;
+        color: antiquewhite;
+        padding: 15px;
+        margin: 20px 15px;
+        @media only screen and (max-device-width: 768px) {
+          padding: 0.5rem;
+          margin: 2rem 1rem;
+          width: 5rem;
+          font-size: 1rem;
+        }
+      }
+    }
+    .success-message {
+      margin: 50px;
+      color: #e45b51;
+    }
+  }
+}
